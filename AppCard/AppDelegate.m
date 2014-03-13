@@ -7,14 +7,21 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CMainFuncViewController.h"
+#import "AppCarViewConfig.h"
+#import "CLoginViewController.h"
 @implementation AppDelegate
-
+@synthesize m_pMainFun;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    //初始化viewConfig
+    [[AppCarViewConfig defaultManager] setupAppearance];
+    
+    
+    [self showRootView:nil];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -44,6 +51,13 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+//
+-(void)showRootView:(NSNotification *)pNotice
+{
+    CLoginViewController *m_pLogin=[[CLoginViewController alloc] initWithNibName:nil bundle:nil];
+    self.m_pMainFun=[[CMainFuncViewController alloc] initWithRootViewController:m_pLogin];
+    self.window.rootViewController=self.m_pMainFun;
 }
 
 @end

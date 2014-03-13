@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class CMainFuncViewController;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) CMainFuncViewController *m_pMainFun;
 
 @end

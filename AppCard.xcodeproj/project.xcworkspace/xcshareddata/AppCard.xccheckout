@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86DB027F-8E37-4FE2-B352-AF330A000810</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AppCard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>42A0E971-8985-42F6-BCCA-A72447FFE8EE</key>
+		<string>https://github.com/linminglu/AppCar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AppCard.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>42A0E971-8985-42F6-BCCA-A72447FFE8EE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/linminglu/AppCar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>42A0E971-8985-42F6-BCCA-A72447FFE8EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>42A0E971-8985-42F6-BCCA-A72447FFE8EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AppCar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
